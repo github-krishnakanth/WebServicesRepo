@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT ENTER_NAME_OF_ROOT_ELEMENT_HERE EMPTY>
+<!ELEMENT mail (to, from, subject, body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT body (attachment, mime-type)>
+<!ELEMENT attachment (#PCDATA)>
+<!ELEMENT mime-type (#PCDATA)>
